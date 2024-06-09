@@ -1,12 +1,15 @@
 public class Studente {
+    // fields
     private String name;
     private int age;
 
+    // constructor
     public Studente(String name,int age){
         this.name = name;
         this.age = age;
     }
 
+    // the getter and setter
     public String getName() {
         return name;
     }
@@ -23,6 +26,7 @@ public class Studente {
         this.age = age;
     }
 
+    // toString override
     @Override
     public String toString() {
         return "Studente{" +
